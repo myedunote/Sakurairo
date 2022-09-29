@@ -23,11 +23,14 @@
  	<div class="works-overlay">
 	<h1 class="works-title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h1>
 	<div class="works-p-time">		
-	  <i class="iconfont icon-calendar"></i> <?php echo poi_time_since(strtotime($post->post_date_gmt));//the_time('Y-m-d');?>
+	  <i class="iconfont icon-calendar"></i> <?php echo poi_time_since(strtotime($post->post_date));//the_time('Y-m-d');?>
 	  </div>
 	<div class="works-meta">
        <div class="works-comnum">  
-        <span><i class="iconfont icon-mark"></i> <?php comments_popup_link(__('NOTHING','sakurairo'), '1 ', '% '); /*暂无*/?></span>
+        <span><i class="iconfont icon-mark"></i> 
+	<?php comments_popup_link(__("NOTHING","sakurairo"), __("1 Comment","sakurairo")/*条评论*/, '% '.__("Comments","sakurairo")/*条评论*/,'',__("Comment Closed","sakurairo")/**评论关闭 */); ?>
+
+		</span>
 		</div>
 		<div class="works-views"> 
 		<span><i class="iconfont icon-attention"></i> <?php echo get_post_views(get_the_ID()); ?> </span>

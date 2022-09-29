@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sakurairo\n"
-"POT-Creation-Date: 2021-01-13 13:17+0800\n"
-"PO-Revision-Date: 2021-01-13 21:21+0800\n"
+"POT-Creation-Date: 2022-07-01 17:25+0800\n"
+"PO-Revision-Date: 2022-07-01 17:26+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -19,159 +19,310 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: 404.php:18
-#, php-format
-msgid "page %s"
-msgstr "第 %s 页"
-
-#: 404.php:47
+#: 404.php:54
 msgid "return to previous page"
 msgstr "返回上一页"
 
-#: 404.php:48
+#: 404.php:55
 msgid "return to home page"
 msgstr "返回首页"
 
-#: 404.php:51
+#: 404.php:58
 msgid "Don't worry, search in site?"
 msgstr "别着急，试试站内检索？"
 
-#: 404.php:54 footer.php:70 opt/classes/admin-options.class.php:567
-#: opt/fields/icon/icon.php:57 opt/fields/map/map.php:23 search.php:42
+#: 404.php:61 footer.php:64 search.php:40
 msgid "Search..."
 msgstr "搜索..."
 
-#: comments.php:21
+#: archive.php:58 author.php:80 index.php:74
+msgid " Previous"
+msgstr " 更早的文章"
+
+#: author.php:12
+msgid "No personal profile set yet"
+msgstr "尚未设置个人简介"
+
+#: comments.php:20
 msgid "view comments"
 msgstr "查看评论"
 
-#: comments.php:22 comments.php:27
+#: comments.php:21 comments.php:25
 msgid " comment"
 msgstr " 条评论"
 
-#: comments.php:22 comments.php:27
+#: comments.php:21 comments.php:25
 msgid " comments"
 msgstr " 条评论"
 
-#: comments.php:43
+#: comments.php:46
 msgid "no comment"
 msgstr "暂无评论"
 
-#: comments.php:53
+#: comments.php:57
 msgid "I'm not a robot"
 msgstr "我可不是机器人呢"
 
-#: comments.php:54
+#: comments.php:58
 msgid "Comment in private"
 msgstr "私密评论"
 
-#: comments.php:55
+#: comments.php:59
 msgid "Comment reply notify"
 msgstr "邮件通知"
 
-#: comments.php:63
+#: comments.php:67
 msgid "Leave a Reply to"
 msgstr "回复给"
 
-#: comments.php:64
+#: comments.php:68
 msgid "Cancel Reply"
 msgstr "取消回复"
 
-#: comments.php:65
+#: comments.php:69
 msgid "BiuBiuBiu~"
 msgstr "BiuBiuBiu~"
 
-#: comments.php:66
+#: comments.php:70
 msgid "You are a surprise that I will only meet once in my life"
 msgstr "你是我一生只会遇见一次的惊喜"
 
-#: comments.php:70
+#: comments.php:74
 msgid "Click me OωO"
 msgstr "戳我呀 OωO"
 
-#: comments.php:71
+#: comments.php:75
 msgid "Woooooow ヾ(≧∇≦*)ゝ"
 msgstr "嘿嘿嘿 ヾ(≧∇≦*)ゝ"
 
-#: comments.php:92
+#: comments.php:96
 msgid "Auto pull nickname and avatar with a QQ num. entered"
 msgstr "输入QQ号将自动拉取昵称和头像"
 
-#: comments.php:92
+#: comments.php:96
 msgid "Nickname or QQ number"
 msgstr "昵称或QQ号"
 
-#: comments.php:92
+#: comments.php:96
 msgid "Name* "
 msgstr "昵称 "
 
-#: comments.php:94
+#: comments.php:98
 msgid "You will receive notification by email"
 msgstr "你将收到回复通知"
 
-#: comments.php:94
+#: comments.php:98
 msgid "email"
 msgstr "邮箱"
 
-#: comments.php:94
+#: comments.php:98
 msgid "Must* "
 msgstr "必须* "
 
-#: comments.php:96
+#: comments.php:100
 msgid "Advertisement is forbidden 😀"
 msgstr "禁止小广告😀"
 
-#: comments.php:96
+#: comments.php:100
 msgid "Site"
 msgstr "网站"
 
-#: footer.php:84 footer.php:92
+#: footer.php:39
+#, php-format
+msgctxt "footer load occupancy"
+msgid "Load Time %.3f seconds | %d Query | RAM Usage %.2f MB "
+msgstr "加载耗时 %.3f 秒 | 查询 %d 次 | 内存使用 %.2f MB "
+
+#: footer.php:69
+msgid "Go to top"
+msgstr "回到顶部"
+
+#: footer.php:77 footer.php:85
 msgid "Want to find something?"
 msgstr "想要找点什么呢？"
 
-#: footer.php:94
+#: footer.php:87
 msgid "Search"
 msgstr "搜索"
 
-#: footer.php:148
+#: footer.php:139
 msgid "Widgets"
 msgstr "小工具"
 
-#: functions.php:58
+#: functions.php:75
 msgid "Nav Menus"
 msgstr "导航菜单"
 
-#: functions.php:343 inc/theme_plus.php:186 layouts/authorprofile.php:11
+#: functions.php:191 functions.php:202
+msgid "Ideas"
+msgstr "说说"
+
+#: functions.php:192
+msgid "Idea"
+msgstr "说说"
+
+#: functions.php:193 functions.php:194
+msgid "Publish New Idea"
+msgstr "发布新说说"
+
+#: functions.php:195
+msgid "Edit Idea"
+msgstr "编辑说说"
+
+#: functions.php:196
+msgid "New Idea"
+msgstr "新说说"
+
+#: functions.php:197
+msgid "View Idea"
+msgstr "查看说说"
+
+#: functions.php:198
+msgid "Search Idea"
+msgstr "搜索说说"
+
+#: functions.php:199
+msgid "Not Found Idea"
+msgstr "没有找到说说"
+
+#: functions.php:200
+msgid "No Idea in the Trash"
+msgstr "没有在垃圾桶的说说"
+
+#: functions.php:273
+msgid "Copied!"
+msgstr "复制成功！"
+
+#: functions.php:274
+msgid "Copy Code"
+msgstr "拷贝代码"
+
+#: functions.php:275
+msgid ""
+"Your cover API seems to not support Cross Origin Access. In this case, Cover "
+"Cache won't take effect."
+msgstr "你的封面API好像不支持跨域调用,这种情况下缓存是不会生效的哦。"
+
+#: functions.php:276
+msgid "Commiting...."
+msgstr "提交中...."
+
+#: functions.php:277
+msgid "Succeed"
+msgstr "成功"
+
+#: functions.php:278
+msgid "10 files max per request"
+msgstr "每次上传上限为10张"
+
+#: functions.php:279
+msgid ""
+"5 MB max per file.\n"
+"\n"
+"「{0}」\n"
+"\n"
+"This image is too large~Please reupload!"
+msgstr "图片上传大小限制为5 MB\\n\\n「{0}」\\n\\n这张图太大啦~请重新上传噢！"
+
+#: functions.php:280
+msgid "Uploading..."
+msgstr "上传中..."
+
+#: functions.php:281
+msgid "Uploaded successfully~"
+msgstr "上传成功~"
+
+#: functions.php:282
+msgid ""
+"Upload failed!\n"
+"File Name=> {0}\n"
+"code=> {1}\n"
+"{2}"
+msgstr "上传失败！\\n文件名=> {0}\\ncode=> {1}\\n{2}"
+
+#: functions.php:283
+msgid "Upload failed, please retry."
+msgstr "上传失败，请重试."
+
+#: functions.php:284
+msgid "Page Load failed. HTTP {0}"
+msgstr "页面加载出错了 HTTP {0}"
+
+#: functions.php:285
+msgid "Glad you come, but we've got nothing left."
+msgstr "很高兴你翻到这里，但是真的没有了..."
+
+#: functions.php:286
+msgid "Post"
+msgstr "文章"
+
+#: functions.php:287
+msgid "Tag"
+msgstr "标签"
+
+#: functions.php:288
+msgid "Category"
+msgstr "分类"
+
+#: functions.php:289
+msgid "Page"
+msgstr "页面"
+
+#: functions.php:290
+msgid "Comment"
+msgstr "评论"
+
+#: functions.php:291
+msgid "Paused..."
+msgstr "停止中"
+
+#: functions.php:292
+msgid "Loading Video..."
+msgstr "正在加载视频..."
+
+#: functions.php:293
+msgid "Downloading fonts, be aware of your data usage."
+msgstr "下载字体时，请注意您的数据使用情况。"
+
+#: functions.php:294
+msgid "Are you sure you want set it private?"
+msgstr "是否要将其设置为私密？"
+
+#: functions.php:295
+msgid "You had set private comment before"
+msgstr "您之前设置了私人评论"
+
+#: functions.php:383 inc/theme_plus.php:194 layouts/authorprofile.php:12
 msgid "Author"
 msgstr "作者"
 
-#: functions.php:343
+#: functions.php:383
 msgid "Blogger"
 msgstr "博客作者"
 
-#: functions.php:347
+#: functions.php:389
 msgid "Location"
 msgstr "来自"
 
-#: functions.php:351
+#: functions.php:395
 msgid "Private"
 msgstr "私密"
 
-#: functions.php:353
+#: functions.php:397
 msgid "Yes"
 msgstr "是"
 
-#: functions.php:355
+#: functions.php:399
 msgid "No"
 msgstr "否"
 
-#: functions.php:358
+#: functions.php:402
 msgid "Edit"
 msgstr "编辑"
 
-#: functions.php:447
+#: functions.php:474
 msgid ""
 "Please install pulgin <a href=\"https://wordpress.org/plugins/wp-statistics/"
 "\" target=\"_blank\">WP-Statistics</a>"
@@ -179,39 +330,47 @@ msgstr ""
 "请安装插件 <a href=\"https://wordpress.org/plugins/wp-statistics/\" target="
 "\"_blank\">WP-Statistics</a>"
 
-#: functions.php:503
+#: functions.php:504
 msgid "This guy is so lazy ╮(╯▽╰)╭"
 msgstr "这家伙好懒╮(╯▽╰)╭"
 
-#: functions.php:1219
+#: functions.php:704
+msgid "Download Link"
+msgstr "下载地址"
+
+#: functions.php:774
+msgid "Remember me"
+msgstr "记住我"
+
+#: functions.php:1173
 msgid "All expand/collapse"
 msgstr "全部展开/收缩"
 
-#: functions.php:1240
+#: functions.php:1194
 msgid " "
-msgstr ""
+msgstr " "
 
-#: functions.php:1244
+#: functions.php:1198
 msgid " post(s)"
 msgstr " 篇文章"
 
-#: functions.php:1267 functions.php:1270 inc/theme_plus.php:478
+#: functions.php:1221 functions.php:1224 inc/theme_plus.php:425
 msgid "Dashboard"
 msgstr "管理后台"
 
-#: functions.php:1490
+#: functions.php:1461
 msgid "<b>ERROR</b>: This email domain (<b>@"
 msgstr "<b>错误</b>: 邮箱格式出错 (<b>@"
 
-#: functions.php:1576
+#: functions.php:1586
 msgid "QQ"
-msgstr "QQ"
+msgstr ""
 
-#: functions.php:1638
+#: functions.php:1655
 msgid "Sidebar"
 msgstr "侧栏"
 
-#: functions.php:1765
+#: functions.php:1785
 msgid ""
 "<b> For a better experience, please do not set <a href=\"/wp-admin/options-"
 "permalink.php\"> permalink </a> as plain. To do this, you may need to "
@@ -222,35 +381,115 @@ msgstr ""
 "固定链接</a>设置为朴素。为此，您可能需要配置<a href=\"https://www.wpdaxue."
 "com/wordpress-rewriterule.html\" target=\"_blank\">伪静态</a></b>"
 
-#: header.php:36
-#, php-format
-msgid "page %s "
-msgstr "第 %s 页 "
-
-#: inc/categories-images.php:45 inc/categories-images.php:66
+#: inc/categories-images.php:44 inc/categories-images.php:65
 msgid "category/tag image"
 msgstr "分类/标签图像"
 
-#: inc/categories-images.php:48 inc/categories-images.php:68
-#: inc/categories-images.php:197
+#: inc/categories-images.php:47 inc/categories-images.php:67
+#: inc/categories-images.php:196
 msgid "add image"
 msgstr "添加图像"
 
-#: inc/categories-images.php:69 inc/categories-images.php:198
+#: inc/categories-images.php:68 inc/categories-images.php:197
 msgid "remove image"
 msgstr "删除图像"
 
-#: inc/categories-images.php:211
+#: inc/categories-images.php:213
 msgid "image"
 msgstr "图像"
 
-#: inc/categories-images.php:223
+#: inc/categories-images.php:222
 msgid "no image"
 msgstr "暂无"
 
-#: inc/classes/Cache.php:70 inc/theme_plus.php:716
+#: inc/classes/Bilibili.php:48 inc/classes/BilibiliFavList.php:54
+#: inc/classes/MyAnimeList.php:57
+msgid "Backend error"
+msgstr "后端发生了错误 QwQ"
+
+#: inc/classes/Bilibili.php:53 inc/classes/MyAnimeList.php:69
+msgid "Following "
+msgstr "已追番"
+
+#: inc/classes/Bilibili.php:53 inc/classes/MyAnimeList.php:69
+msgid " anime."
+msgstr "动漫"
+
+#: inc/classes/Bilibili.php:68
+msgid "The author seems to have hidden their bangumi list."
+msgstr "博主似乎隐藏了追番列表。"
+
+#: inc/classes/BilibiliFavList.php:72
+msgid "Item count: "
+msgstr "内容数量: "
+
+#: inc/classes/BilibiliFavList.php:73
+msgid "Expand"
+msgstr "展开"
+
+#: inc/classes/BilibiliFavList.php:90
+msgid "All item has been loaded."
+msgstr "已加载所有内容。"
+
+#: inc/classes/BilibiliFavList.php:112
+msgid "Load More"
+msgstr "加载更多"
+
+#: inc/classes/Cache.php:70 inc/theme_plus.php:669
 msgid "The comment is private"
 msgstr "这是一条私密评论"
+
+#: inc/classes/Captcha.php:128
+msgid "Bad Request."
+msgstr "请求错误。"
+
+#: inc/classes/Captcha.php:131
+msgid "Look like you forgot to enter the captcha."
+msgstr "看起来您忘记输入验证码。"
+
+#: inc/classes/Captcha.php:134
+msgid "Captcha timeout."
+msgstr "验证码超时。"
+
+#: inc/classes/Captcha.php:138
+msgid "Captcha check passed."
+msgstr "验证码检查已通过。"
+
+#: inc/classes/Captcha.php:141
+msgid "Captcha incorrect."
+msgstr "验证码不正确。"
+
+#: inc/classes/Captcha.php:145
+msgid "An error has occurred."
+msgstr "出现了一个错误。"
+
+#: inc/classes/MyAnimeList.php:70
+msgid " Watched "
+msgstr "已观看"
+
+#: inc/classes/MyAnimeList.php:70
+msgid " episodes."
+msgstr "集。"
+
+#: inc/classes/MyAnimeList.php:108
+msgid "Finished "
+msgstr "已看完"
+
+#: inc/classes/MyAnimeList.php:117
+msgid "Watching "
+msgstr "追番中"
+
+#: inc/classes/MyAnimeList.php:124
+msgid "Planning to Watch "
+msgstr "打算看"
+
+#: inc/classes/MyAnimeList.php:133
+msgid "Dropped "
+msgstr "弃坑"
+
+#: inc/classes/MyAnimeList.php:142
+msgid "Paused "
+msgstr "暂停"
 
 #: inc/template-tags.php:28
 #, php-format
@@ -267,7 +506,7 @@ msgstr "由 %s 写作"
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:50 inc/template-tags.php:56
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: inc/template-tags.php:52
 #, php-format
@@ -286,764 +525,157 @@ msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "<span class=\"screen-reader-text\"> 在 %s</span>中留言"
 
 #. translators: %s: Name of current post
-#: inc/template-tags.php:72 tpl/content-page.php:35
+#: inc/template-tags.php:72 tpl/content-page.php:36
 #, php-format
 msgid "Edit %s"
 msgstr "编辑 %s"
 
-#: inc/theme_plus.php:60
+#: inc/theme_plus.php:16
+msgid "EDIT"
+msgstr "编辑"
+
+#: inc/theme_plus.php:65
 msgid " days ago"
 msgstr " 天前"
 
-#: inc/theme_plus.php:61
+#: inc/theme_plus.php:66
 msgid " hours ago"
 msgstr " 小时前"
 
-#: inc/theme_plus.php:62
+#: inc/theme_plus.php:67
 msgid " minutes ago"
 msgstr " 分钟前"
 
-#: inc/theme_plus.php:63
+#: inc/theme_plus.php:68
 msgid " seconds ago"
 msgstr " 秒前"
 
-#: inc/theme_plus.php:71
+#: inc/theme_plus.php:75
 msgid "Posted on "
 msgstr "发布于 "
 
-#: inc/theme_plus.php:130
+#: inc/theme_plus.php:134
 msgid "Please upgrade wordpress to version 4.4+"
 msgstr "请升级到4.4以上版本"
-
-#: inc/theme_plus.php:232
-msgid "dashboard"
-msgstr "管理后台"
-
-#: inc/theme_plus.php:234
-msgid "home"
-msgstr "主页"
 
 #: inc/theme_plus.php:241
 msgid "Login successful, "
 msgstr "登录成功， "
 
-#: inc/theme_plus.php:241
+#: inc/theme_plus.php:242
 msgid "seconds later automatically transfer to"
 msgstr "秒后自动转到"
 
-#: inc/theme_plus.php:264
+#: inc/theme_plus.php:253
+msgid "dashboard"
+msgstr "管理后台"
+
+#: inc/theme_plus.php:261
+msgid "home"
+msgstr "主页"
+
+#: inc/theme_plus.php:273
 msgid "Change avatar"
 msgstr "更换头像"
 
-#: inc/theme_plus.php:265
+#: inc/theme_plus.php:274
 msgid "Hello, "
 msgstr "欢迎 "
 
-#: inc/theme_plus.php:269
+#: inc/theme_plus.php:278
 msgid "Home"
 msgstr "首页"
 
-#: inc/theme_plus.php:271
+#: inc/theme_plus.php:280
 msgid "Manage"
 msgstr "管理"
 
-#: inc/theme_plus.php:273
+#: inc/theme_plus.php:282
 msgid "Logout"
 msgstr "退出登录"
 
-#: inc/theme_plus.php:273
+#: inc/theme_plus.php:282
 msgid "Sign out? "
 msgstr "退出登录？ "
 
-#: inc/theme_plus.php:298 inc/theme_plus.php:353 inc/theme_plus.php:421
-#: tpl/content-single.php:16 tpl/single-image.php:18
+#: inc/theme_plus.php:302 inc/theme_plus.php:363 tpl/content-single.php:20
+#: tpl/single-image.php:18
 msgid "View"
 msgid_plural "Views"
 msgstr[0] "次阅读"
 
-#: inc/theme_plus.php:310 inc/theme_plus.php:368 inc/theme_plus.php:436
+#: inc/theme_plus.php:314 inc/theme_plus.php:374
 #, php-format
 msgid "Search results for \" %s \""
 msgstr "关于“ %s ”的搜索结果"
 
-#: inc/theme_plus.php:416
-msgid "EDIT"
-msgstr "编辑"
+#: inc/theme_plus.php:391 tpl/content-thumb.php:28 tpl/content-thumb.php:34
+msgid "Your browser does not support HTML5 video."
+msgstr ""
 
-#: inc/theme_plus.php:479
+#: inc/theme_plus.php:420
+msgid "Signed in as"
+msgstr "当前已登录"
+
+#: inc/theme_plus.php:426
 msgid "New post"
 msgstr "撰写文章"
 
-#: inc/theme_plus.php:481
+#: inc/theme_plus.php:428
 msgid "Profile"
 msgstr "个人资料"
 
-#: inc/theme_plus.php:482
+#: inc/theme_plus.php:429
 msgid "Sign out"
 msgstr "退出登录"
 
-#: opt/classes/admin-options.class.php:225
-msgid "Error while saving the changes."
-msgstr ""
-
-#: opt/classes/admin-options.class.php:285
-msgid "Settings successfully imported."
-msgstr ""
-
-#: opt/classes/admin-options.class.php:297
-#: opt/classes/admin-options.class.php:313
-msgid "Default settings restored."
-msgstr ""
-
-#: opt/classes/admin-options.class.php:384
-msgid "Settings saved."
-msgstr ""
-
-#: opt/classes/admin-options.class.php:563
-msgid "You have unsaved changes, save your changes!"
-msgstr ""
-
-#: opt/classes/admin-options.class.php:565
-msgid "show all settings"
-msgstr ""
-
-#: opt/classes/admin-options.class.php:570
-#: opt/classes/admin-options.class.php:693
-msgid "Save"
-msgstr ""
-
-#: opt/classes/admin-options.class.php:570
-#: opt/classes/admin-options.class.php:693
-msgid "Saving..."
-msgstr ""
-
-#: opt/classes/admin-options.class.php:571
-#: opt/classes/admin-options.class.php:694
-msgid "Reset Section"
-msgstr ""
-
-#: opt/classes/admin-options.class.php:571
-#: opt/classes/admin-options.class.php:694
-msgid "Are you sure to reset this section options?"
-msgstr ""
-
-#: opt/classes/admin-options.class.php:572
-#: opt/classes/admin-options.class.php:695
-msgid "Reset All"
-msgstr ""
-
-#: opt/classes/admin-options.class.php:572
-#: opt/classes/admin-options.class.php:695 opt/fields/backup/backup.php:31
-msgid "Reset"
-msgstr ""
-
-#: opt/classes/admin-options.class.php:572
-#: opt/classes/admin-options.class.php:695
-msgid "Are you sure you want to reset all settings to default values?"
-msgstr ""
-
-#: opt/classes/admin-options.class.php:670
-#: opt/fields/button_set/button_set.php:56 opt/fields/checkbox/checkbox.php:76
-#: opt/fields/radio/radio.php:75 opt/fields/select/select.php:113
-#: opt/functions/actions.php:41
-msgid "No data available."
-msgstr ""
-
-#: opt/classes/setup.class.php:529
-msgid "Are you sure?"
-msgstr ""
-
-#: opt/classes/setup.class.php:530
-#, php-format
-msgid "Please enter %s or more characters"
-msgstr ""
-
-#: opt/classes/setup.class.php:531
-msgid "Searching..."
-msgstr ""
-
-#: opt/classes/setup.class.php:532
-msgid "No results found."
-msgstr ""
-
-#: opt/classes/setup.class.php:634
-msgid "Oops! Not allowed."
-msgstr ""
-
-#: opt/classes/setup.class.php:708 opt/classes/setup.class.php:712
-msgid "Field not found!"
-msgstr ""
-
-#: opt/fields/background/background.php:36 opt/fields/media/media.php:57
-msgid "Not selected"
-msgstr ""
-
-#: opt/fields/background/background.php:72 opt/fields/date/date.php:31
-msgid "From"
-msgstr ""
-
-#: opt/fields/background/background.php:90 opt/fields/date/date.php:32
-msgid "To"
-msgstr ""
-
-#: opt/fields/background/background.php:108
-msgid "Direction"
-msgstr ""
-
-#: opt/fields/background/background.php:114
-msgid "Gradient Direction"
-msgstr ""
-
-#: opt/fields/background/background.php:115
-msgid "&#8659; top to bottom"
-msgstr ""
-
-#: opt/fields/background/background.php:116
-msgid "&#8658; left to right"
-msgstr ""
-
-#: opt/fields/background/background.php:117
-msgid "&#8664; corner top to right"
-msgstr ""
-
-#: opt/fields/background/background.php:118
-msgid "&#8665; corner top to left"
-msgstr ""
-
-#: opt/fields/background/background.php:161
-msgid "Background Position"
-msgstr ""
-
-#: opt/fields/background/background.php:162
-msgid "Left Top"
-msgstr ""
-
-#: opt/fields/background/background.php:163
-msgid "Left Center"
-msgstr ""
-
-#: opt/fields/background/background.php:164
-msgid "Left Bottom"
-msgstr ""
-
-#: opt/fields/background/background.php:165
-msgid "Center Top"
-msgstr ""
-
-#: opt/fields/background/background.php:166
-msgid "Center Center"
-msgstr ""
-
-#: opt/fields/background/background.php:167
-msgid "Center Bottom"
-msgstr ""
-
-#: opt/fields/background/background.php:168
-msgid "Right Top"
-msgstr ""
-
-#: opt/fields/background/background.php:169
-msgid "Right Center"
-msgstr ""
-
-#: opt/fields/background/background.php:170
-msgid "Right Bottom"
-msgstr ""
-
-#: opt/fields/background/background.php:184
-msgid "Background Repeat"
-msgstr ""
-
-#: opt/fields/background/background.php:185
-msgid "Repeat"
-msgstr ""
-
-#: opt/fields/background/background.php:186
-msgid "No Repeat"
-msgstr ""
-
-#: opt/fields/background/background.php:187
-msgid "Repeat Horizontally"
-msgstr ""
-
-#: opt/fields/background/background.php:188
-msgid "Repeat Vertically"
-msgstr ""
-
-#: opt/fields/background/background.php:202
-msgid "Background Attachment"
-msgstr ""
-
-#: opt/fields/background/background.php:203
-msgid "Scroll"
-msgstr ""
-
-#: opt/fields/background/background.php:204
-msgid "Fixed"
-msgstr ""
-
-#: opt/fields/background/background.php:218
-msgid "Background Size"
-msgstr ""
-
-#: opt/fields/background/background.php:219
-msgid "Cover"
-msgstr ""
-
-#: opt/fields/background/background.php:220
-msgid "Contain"
-msgstr ""
-
-#: opt/fields/background/background.php:221
-msgid "Auto"
-msgstr ""
-
-#: opt/fields/background/background.php:235
-msgid "Background Origin"
-msgstr ""
-
-#: opt/fields/background/background.php:236
-#: opt/fields/background/background.php:254
-msgid "Padding Box"
-msgstr ""
-
-#: opt/fields/background/background.php:237
-#: opt/fields/background/background.php:253
-msgid "Border Box"
-msgstr ""
-
-#: opt/fields/background/background.php:238
-#: opt/fields/background/background.php:255
-msgid "Content Box"
-msgstr ""
-
-#: opt/fields/background/background.php:252
-msgid "Background Clip"
-msgstr ""
-
-#: opt/fields/background/background.php:269
-msgid "Background Blend Mode"
-msgstr ""
-
-#: opt/fields/background/background.php:270
-#: opt/fields/link_color/link_color.php:36
-#: opt/fields/typography/typography.php:186
-msgid "Normal"
-msgstr ""
-
-#: opt/fields/background/background.php:271
-msgid "Multiply"
-msgstr ""
-
-#: opt/fields/background/background.php:272
-msgid "Screen"
-msgstr ""
-
-#: opt/fields/background/background.php:273
-msgid "Overlay"
-msgstr ""
-
-#: opt/fields/background/background.php:274
-msgid "Darken"
-msgstr ""
-
-#: opt/fields/background/background.php:275
-msgid "Lighten"
-msgstr ""
-
-#: opt/fields/background/background.php:276
-msgid "Color Dodge"
-msgstr ""
-
-#: opt/fields/background/background.php:277
-msgid "Saturation"
-msgstr ""
-
-#: opt/fields/background/background.php:278
-msgid "Color"
-msgstr ""
-
-#: opt/fields/background/background.php:279
-msgid "Luminosity"
-msgstr ""
-
-#: opt/fields/backup/backup.php:26
-msgid "Import"
-msgstr ""
-
-#: opt/fields/backup/backup.php:29
-msgid "Export & Download"
-msgstr ""
-
-#: opt/fields/border/border.php:25 opt/fields/spacing/spacing.php:25
-msgid "top"
-msgstr ""
-
-#: opt/fields/border/border.php:26 opt/fields/spacing/spacing.php:26
-msgid "right"
-msgstr ""
-
-#: opt/fields/border/border.php:27 opt/fields/spacing/spacing.php:27
-msgid "bottom"
-msgstr ""
-
-#: opt/fields/border/border.php:28 opt/fields/spacing/spacing.php:28
-msgid "left"
-msgstr ""
-
-#: opt/fields/border/border.php:29 opt/fields/spacing/spacing.php:29
-msgid "all"
-msgstr ""
-
-#: opt/fields/border/border.php:51 opt/fields/typography/typography.php:214
-msgid "Solid"
-msgstr ""
-
-#: opt/fields/border/border.php:52 opt/fields/typography/typography.php:217
-msgid "Dashed"
-msgstr ""
-
-#: opt/fields/border/border.php:53 opt/fields/typography/typography.php:216
-msgid "Dotted"
-msgstr ""
-
-#: opt/fields/border/border.php:54 opt/fields/typography/typography.php:215
-msgid "Double"
-msgstr ""
-
-#: opt/fields/border/border.php:55
-msgid "Inset"
-msgstr ""
-
-#: opt/fields/border/border.php:56
-msgid "Outset"
-msgstr ""
-
-#: opt/fields/border/border.php:57
-msgid "Groove"
-msgstr ""
-
-#: opt/fields/border/border.php:58
-msgid "ridge"
-msgstr ""
-
-#: opt/fields/border/border.php:59 opt/fields/typography/typography.php:199
-#: opt/fields/typography/typography.php:213
-msgid "None"
-msgstr ""
-
-#: opt/fields/dimensions/dimensions.php:22
-msgid "width"
-msgstr ""
-
-#: opt/fields/dimensions/dimensions.php:23
-msgid "height"
-msgstr ""
-
-#: opt/fields/gallery/gallery.php:20
-msgid "Add Gallery"
-msgstr ""
-
-#: opt/fields/gallery/gallery.php:21
-msgid "Edit Gallery"
-msgstr ""
-
-#: opt/fields/gallery/gallery.php:22
-msgid "Clear"
-msgstr ""
-
-#: opt/fields/group/group.php:23
-msgid "Add New"
-msgstr ""
-
-#: opt/fields/group/group.php:35 opt/fields/repeater/repeater.php:27
-msgid "Error: Field ID conflict."
-msgstr ""
-
-#: opt/fields/group/group.php:46 opt/fields/group/group.php:87
-#: opt/fields/repeater/repeater.php:48 opt/fields/repeater/repeater.php:76
-msgid "Are you sure to delete this item?"
-msgstr ""
-
-#: opt/fields/group/group.php:121 opt/fields/repeater/repeater.php:89
-msgid "You cannot add more."
-msgstr ""
-
-#: opt/fields/group/group.php:122 opt/fields/repeater/repeater.php:90
-msgid "You cannot remove more."
-msgstr ""
-
-#: opt/fields/icon/icon.php:20 opt/fields/icon/icon.php:53
-msgid "Add Icon"
-msgstr ""
-
-#: opt/fields/icon/icon.php:21
-msgid "Remove Icon"
-msgstr ""
-
-#: opt/fields/link/link.php:20
-msgid "Add Link"
-msgstr ""
-
-#: opt/fields/link/link.php:21
-msgid "Edit Link"
-msgstr ""
-
-#: opt/fields/link/link.php:22
-msgid "Remove Link"
-msgstr ""
-
-#: opt/fields/link_color/link_color.php:37
-msgid "Hover"
-msgstr ""
-
-#: opt/fields/link_color/link_color.php:38
-msgid "Active"
-msgstr ""
-
-#: opt/fields/link_color/link_color.php:39
-msgid "Visited"
-msgstr ""
-
-#: opt/fields/link_color/link_color.php:40
-msgid "Focus"
-msgstr ""
-
-#: opt/fields/map/map.php:24
-msgid "Latitude"
-msgstr ""
-
-#: opt/fields/map/map.php:25
-msgid "Longitude"
-msgstr ""
-
-#: opt/fields/media/media.php:23 opt/fields/upload/upload.php:21
-msgid "Upload"
-msgstr ""
-
-#: opt/fields/media/media.php:24 opt/fields/upload/upload.php:22
-msgid "Remove"
-msgstr ""
-
-#: opt/fields/sorter/sorter.php:21
-msgid "Enabled"
-msgstr ""
-
-#: opt/fields/sorter/sorter.php:22
-msgid "Disabled"
-msgstr ""
-
-#: opt/fields/switcher/switcher.php:20
-msgid "On"
-msgstr ""
-
-#: opt/fields/switcher/switcher.php:21
-msgid "Off"
-msgstr ""
-
-#: opt/fields/typography/typography.php:96
-msgid "Font Family"
-msgstr ""
-
-#: opt/fields/typography/typography.php:97
-msgid "Select a font"
-msgstr ""
-
-#: opt/fields/typography/typography.php:105
-msgid "Backup Font Family"
-msgstr ""
-
-#: opt/fields/typography/typography.php:119
-#: opt/fields/typography/typography.php:132
-#: opt/fields/typography/typography.php:145
-#: opt/fields/typography/typography.php:160
-#: opt/fields/typography/typography.php:176
-#: opt/fields/typography/typography.php:189
-#: opt/fields/typography/typography.php:203
-#: opt/fields/typography/typography.php:221
-msgid "Default"
-msgstr ""
-
-#: opt/fields/typography/typography.php:130
-msgid "Font Style"
-msgstr ""
-
-#: opt/fields/typography/typography.php:144
-#: opt/fields/typography/typography.php:145
-msgid "Load Extra Styles"
-msgstr ""
-
-#: opt/fields/typography/typography.php:158
-msgid "Subset"
-msgstr ""
-
-#: opt/fields/typography/typography.php:168
-msgid "Text Align"
-msgstr ""
-
-#: opt/fields/typography/typography.php:170
-msgid "Inherit"
-msgstr ""
-
-#: opt/fields/typography/typography.php:171
-msgid "Left"
-msgstr ""
-
-#: opt/fields/typography/typography.php:172
-msgid "Center"
-msgstr ""
-
-#: opt/fields/typography/typography.php:173
-msgid "Right"
-msgstr ""
-
-#: opt/fields/typography/typography.php:174
-msgid "Justify"
-msgstr ""
-
-#: opt/fields/typography/typography.php:175
-msgid "Initial"
-msgstr ""
-
-#: opt/fields/typography/typography.php:184
-msgid "Font Variant"
-msgstr ""
-
-#: opt/fields/typography/typography.php:187
-msgid "Small Caps"
-msgstr ""
-
-#: opt/fields/typography/typography.php:188
-msgid "All Small Caps"
-msgstr ""
-
-#: opt/fields/typography/typography.php:197
-msgid "Text Transform"
-msgstr ""
-
-#: opt/fields/typography/typography.php:200
-msgid "Capitalize"
-msgstr ""
-
-#: opt/fields/typography/typography.php:201
-msgid "Uppercase"
-msgstr ""
-
-#: opt/fields/typography/typography.php:202
-msgid "Lowercase"
-msgstr ""
-
-#: opt/fields/typography/typography.php:211
-msgid "Text Decoration"
-msgstr ""
-
-#: opt/fields/typography/typography.php:218
-msgid "Wavy"
-msgstr ""
-
-#: opt/fields/typography/typography.php:219
-msgid "Overline"
-msgstr ""
-
-#: opt/fields/typography/typography.php:220
-msgid "Line-through"
-msgstr ""
-
-#: opt/fields/typography/typography.php:233
-msgid "Font Size"
-msgstr ""
-
-#: opt/fields/typography/typography.php:245
-msgid "Line Height"
-msgstr ""
-
-#: opt/fields/typography/typography.php:257
-msgid "Letter Spacing"
-msgstr ""
-
-#: opt/fields/typography/typography.php:269
-msgid "Word Spacing"
-msgstr ""
-
-#: opt/fields/typography/typography.php:284
-msgid "Font Color"
-msgstr ""
-
-#: opt/fields/typography/typography.php:295
-msgid "Custom Style"
-msgstr ""
-
-#: opt/fields/typography/typography.php:362
-msgid "Custom Web Fonts"
-msgstr ""
-
-#: opt/fields/typography/typography.php:368
-msgid "Safe Web Fonts"
-msgstr ""
-
-#: opt/fields/typography/typography.php:388
-msgid "Google Web Fonts"
-msgstr ""
-
-#: opt/functions/actions.php:16 opt/functions/actions.php:68
-#: opt/functions/actions.php:106 opt/functions/actions.php:141
-#: opt/functions/actions.php:170
-msgid "Error: Invalid nonce verification."
-msgstr ""
-
-#: opt/functions/actions.php:72 opt/functions/actions.php:110
-msgid "Error: Invalid key."
-msgstr ""
-
-#: opt/functions/actions.php:114
-msgid "Error: The response is not a valid JSON response."
-msgstr ""
-
-#: opt/functions/actions.php:174
-msgid "Error: Invalid term ID."
-msgstr ""
-
-#: opt/functions/actions.php:180
-msgid "Error: You do not have permission to do that."
-msgstr ""
-
-#: opt/functions/validate.php:14 opt/functions/validate.php:86
-msgid "Please enter a valid email address."
-msgstr ""
-
-#: opt/functions/validate.php:32 opt/functions/validate.php:106
-msgid "Please enter a valid number."
-msgstr ""
-
-#: opt/functions/validate.php:50 opt/functions/validate.php:126
-msgid "This field is required."
-msgstr ""
-
-#: opt/functions/validate.php:68 opt/functions/validate.php:146
-msgid "Please enter a valid URL."
-msgstr ""
-
-#: search.php:19
+#: inc/theme_plus.php:447
+msgid "Log in"
+msgstr "登录"
+
+#: layouts/imgbox.php:7
+msgid "Previous"
+msgstr "上一篇"
+
+#: layouts/imgbox.php:39
+msgid "Next"
+msgstr "下一篇"
+
+#: layouts/post-nextprev.php:11
+msgid "Previous Post"
+msgstr "上一篇文章"
+
+#: layouts/post-nextprev.php:14
+msgid "Next Post"
+msgstr "下一篇文章"
+
+#: search.php:20
 #, php-format
 msgid "search result: %s"
 msgstr "搜索结果：%s"
 
-#: tpl/content-category.php:30
+#: tpl/content-category.php:31 tpl/content-image.php:36
+#: tpl/content-status.php:32 tpl/content-thumb.php:93 tpl/content.php:36
 msgid "NOTHING"
 msgstr "啥也没有呀"
 
-#: tpl/content-image.php:35 tpl/content-status.php:31 tpl/content-thumb.php:43
-#: tpl/content.php:34
-msgid "Comment"
-msgstr "评论"
+#: tpl/content-category.php:31 tpl/content-image.php:36
+#: tpl/content-status.php:32 tpl/content-thumb.php:93 tpl/content.php:36
+msgid "1 Comment"
+msgstr "1 评论"
 
-#: tpl/content-image.php:35 tpl/content-status.php:31 tpl/content-thumb.php:43
-#: tpl/content.php:34
+#: tpl/content-category.php:31 tpl/content-image.php:36
+#: tpl/content-status.php:32 tpl/content-thumb.php:93 tpl/content.php:36
 msgid "Comments"
 msgstr "条评论"
 
-#: tpl/content-image.php:38 tpl/content-status.php:34 tpl/content-thumb.php:42
-#: tpl/content.php:37
+#: tpl/content-category.php:31 tpl/content-image.php:36
+#: tpl/content-status.php:32 tpl/content-thumb.php:93 tpl/content.php:36
+msgid "Comment Closed"
+msgstr "评论关闭"
+
+#: tpl/content-image.php:40 tpl/content-status.php:36 tpl/content-thumb.php:90
+#: tpl/content.php:40
 msgid "Hit"
 msgid_plural "Hits"
 msgstr[0] "热度"
@@ -1056,63 +688,28 @@ msgstr "没有找到任何东西！"
 #, php-format
 msgid ""
 "Ready to post your first article? <a href=\"%1$s\">Click here to start</a>."
-msgstr "准备好发布你的第一篇文章了么？ <a href=\"%1$s\">点击这里开始</a>"
+msgstr "准备好发布你的第一篇文章了么？ <a href=\"%1$s\">点击这里开始</a>。"
 
 #: tpl/content-none.php:25
 msgid "Didn't find what you want, look at the other ones."
-msgstr "没有找到你想要的，看看其他的吧"
+msgstr "没有找到你想要的，看看其他的吧。"
 
 #: tpl/content-none.php:43
 msgid "We didn't seem to find what you want. Maybe you can search for it."
 msgstr "我们似乎没有找到你想要的东西. 或许你可以搜索一下试试."
 
-#: tpl/content-page.php:24 tpl/content-single.php:25 tpl/single-image.php:28
+#: tpl/content-page.php:25 tpl/content-single.php:29 tpl/single-image.php:28
 msgid "Pages:"
-msgstr ""
+msgstr "页面："
 
-#: update-checker/Puc/v4p10/Plugin/Ui.php:54
-msgid "View details"
-msgstr "查看更多内容"
-
-#: update-checker/Puc/v4p10/Plugin/Ui.php:77
-#, php-format
-msgid "More information about %s"
-msgstr "关于 %s  的更多信息"
-
-#: update-checker/Puc/v4p10/Plugin/Ui.php:128
-msgid "Check for updates"
-msgstr "检测更新"
-
-#: update-checker/Puc/v4p10/Plugin/Ui.php:213
-#, php-format
-msgctxt "the plugin title"
-msgid "The %s plugin is up to date."
-msgstr "%s现在是最新的"
-
-#: update-checker/Puc/v4p10/Plugin/Ui.php:215
-#, php-format
-msgctxt "the plugin title"
-msgid "A new version of the %s plugin is available."
-msgstr "%s的最新更新已就位"
-
-#: update-checker/Puc/v4p10/Plugin/Ui.php:217
-#, php-format
-msgctxt "the plugin title"
-msgid "Could not determine if updates are available for %s."
-msgstr "无法确定 %s 是否有可用的更新"
-
-#: update-checker/Puc/v4p10/Plugin/Ui.php:223
-#, php-format
-msgid "Unknown update checker status \"%s\""
-msgstr "未知的更新检查器状态 \"%s\""
-
-#: update-checker/Puc/v4p10/Vcs/PluginUpdateChecker.php:98
-msgid "There is no changelog available."
-msgstr "没有可用的更新日志"
-
-#: user/page-bangumi.php:30
+#: user/page-bangumi.php:31 user/page-bilibiliFavList.php:30
+#: user/page-followVideos.php:29
 msgid "Please fill in the Bilibili UID in Sakura Options."
-msgstr "请在后台设置填写 Bilibili UID 后继续"
+msgstr "请在后台设置填写 Bilibili UID 后继续。"
+
+#: user/page-bangumi.php:43
+msgid "Please fill in the My Anime List Username in Sakura Options."
+msgstr "请在后台设置填写 My Anime List Username 后继续。"
 
 #: user/page-login.php:18
 msgid "Remember_Me"
@@ -1122,69 +719,77 @@ msgstr "记住我"
 #: user/page-register.php:19 user/page-register.php:24
 #: user/page-register.php:26 user/page-register.php:29
 #: user/page-register.php:34 user/page-register.php:36
-#: user/page-register.php:41 user/page-register.php:47
+#: user/page-register.php:43
 msgid "Error"
 msgstr "错误"
 
 #: user/page-register.php:14
 msgid "Please enter username."
-msgstr "请输入用户名"
+msgstr "请输入用户名。"
 
 #: user/page-register.php:16
 msgid "Invalid characters, please enter a valid username."
-msgstr "此用户名包含无效字符，请输入有效的用户名"
+msgstr "此用户名包含无效字符，请输入有效的用户名。"
 
 #: user/page-register.php:19
 msgid "This username has been registered."
-msgstr "该用户名已被注册"
+msgstr "该用户名已被注册。"
 
 #: user/page-register.php:24
 msgid "Please enter email address."
-msgstr "请填写电子邮件地址"
+msgstr "请填写电子邮件地址。"
 
 #: user/page-register.php:26
 msgid "Invalid email address."
-msgstr "电子邮件地址不正确"
+msgstr "电子邮件地址不正确。"
 
 #: user/page-register.php:29
 msgid "This email address has been registered."
-msgstr "该电子邮件地址已经被注册"
+msgstr "该电子邮件地址已经被注册。"
 
 #: user/page-register.php:34
 msgid "Password length is at least 6 digits."
-msgstr "密码长度至少6位"
+msgstr "密码长度至少6位。"
 
 #: user/page-register.php:36
 msgid "Inconsistent password entered twice."
-msgstr "两次输入的密码不一致"
+msgstr "两次输入的密码不一致。"
 
-#: user/page-register.php:41
-msgid "Please drag the slider to verify identity"
-msgstr "请拖动滑块验证身份"
-
-#: user/page-register.php:47
+#: user/page-register.php:43
 msgid "Unable to complete registration request...Please contact"
 msgstr "无法完成注册请求... 请联系"
 
-#: user/page-register.php:47
+#: user/page-register.php:43
 msgid "administrator"
 msgstr "管理员"
 
-#: user/page-register.php:76
-msgid "Drag the slider to verify"
-msgstr "拖动滑块验证"
+#: user/page-register.php:64
+msgid "User Name"
+msgstr "用户名"
 
-#: user/page-register.php:83
+#: user/page-register.php:65
+msgid "Email Address"
+msgstr "电子邮箱"
+
+#: user/page-register.php:66
+msgid "Password"
+msgstr "密码"
+
+#: user/page-register.php:67
+msgid "Confirm your password"
+msgstr "确认密码"
+
+#: user/page-register.php:70
 msgid "Sign up"
 msgstr "注册"
 
-#: user/page-register.php:90
+#: user/page-register.php:77
 msgid "Success! Redirecting......"
 msgstr "注册成功！正在跳转......"
 
-#: user/page-register.php:95
+#: user/page-register.php:82
 msgid "Registration is not open yet."
-msgstr "暂未开放注册"
+msgstr "暂未开放注册。"
 
 #. Theme Name of the plugin/theme
 msgid "Sakurairo"
@@ -1192,7 +797,7 @@ msgstr "桜いろ"
 
 #. Theme URI of the plugin/theme
 msgid "https://github.com/mirai-mamori/Sakurairo"
-msgstr ""
+msgstr "https://github.com/mirai-mamori/Sakurairo"
 
 #. Description of the plugin/theme
 msgid ""
@@ -1203,21 +808,21 @@ msgstr ""
 "题）"
 
 #. Author of the plugin/theme
-msgid "made by FUUKEI"
+msgid "Created by Fuukei"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://asuhe.jp/"
+msgid "https://fuukei.org/"
 msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "文章模版"
-msgstr ""
+msgstr "文章模版"
 
 #. Template Name of the plugin/theme
 msgid "友情链接模版"
-msgstr ""
+msgstr "友情链接模版"
 
 #. Template Name of the plugin/theme
 msgid "说说模版"
-msgstr ""
+msgstr "说说模版"

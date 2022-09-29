@@ -7,11 +7,10 @@ function z_init() {
 	$z_taxonomies = get_taxonomies();
 	if (is_array($z_taxonomies)) {
 		$zci_options = get_option('zci_options');
-		if (empty($zci_options['excluded_taxonomies']))
-			$zci_options['excluded_taxonomies'] = array();
+		$excluded_taxonomies = $zci_options['excluded_taxonomies'] ?? [];
 		
 	    foreach ($z_taxonomies as $z_taxonomy) {
-			if (in_array($z_taxonomy, $zci_options['excluded_taxonomies']))
+			if (in_array($z_taxonomy, $excluded_taxonomies))
 				continue;
 	        add_action($z_taxonomy.'_add_form_fields', 'z_add_texonomy_field');
 			add_action($z_taxonomy.'_edit_form_fields', 'z_edit_texonomy_field');
@@ -23,7 +22,7 @@ function z_init() {
 
 add_action( 'admin_head', 'z_add_style' );
 function z_add_style() {
-	echo '<style type="text/css" media="screen">
+	echo '<style media="screen">
 		th.column-thumb {width:60px;}
 		.form-field img.taxonomy-image {border:1px solid #eee;max-width:300px;max-height:300px;}
 		.inline-edit-row fieldset .thumb label span.title {width:48px;height:48px;border:1px solid #eee;display:inline-block;}
@@ -207,11 +206,11 @@ function z_quick_edit_custom_box($column_name, $screen, $name) {
  */
 function z_taxonomy_columns( $columns ) {
 	$new_columns = array();
-	$new_columns['cb'] = $columns['cb'];
+	if(isset($columns)){
+		$new_columns['cb'] = $columns['cb'];
+		unset( $columns['cb'] );
+	}
 	$new_columns['thumb'] = __('image', 'sakurairo')/*图像*/;
-
-	unset( $columns['cb'] );
-
 	return array_merge( $new_columns, $columns );
 }
 

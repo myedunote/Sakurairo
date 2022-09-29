@@ -18,8 +18,8 @@ if ( ! class_exists( 'CSF_Field_sorter' ) ) {
 
       $args = wp_parse_args( $this->field, array(
         'disabled'       => true,
-        'enabled_title'  => esc_html__( 'Enabled', 'csf' ),
-        'disabled_title' => esc_html__( 'Disabled', 'csf' ),
+        'enabled_title'  => esc_html__( 'Enabled', 'sakurairo_csf' ),
+        'disabled_title' => esc_html__( 'Disabled', 'sakurairo_csf' ),
       ) );
 
       echo $this->field_before();
@@ -27,6 +27,8 @@ if ( ! class_exists( 'CSF_Field_sorter' ) ) {
       $this->value      = ( ! empty( $this->value ) ) ? $this->value : $this->field['default'];
       $enabled_options  = ( ! empty( $this->value['enabled'] ) ) ? $this->value['enabled'] : array();
       $disabled_options = ( ! empty( $this->value['disabled'] ) ) ? $this->value['disabled'] : array();
+
+      echo '<div class="csf-sorter" data-depend-id="'. esc_attr( $this->field['id'] ) .'"></div>';
 
       echo ( $args['disabled'] ) ? '<div class="csf-modules">' : '';
 
@@ -56,6 +58,7 @@ if ( ! class_exists( 'CSF_Field_sorter' ) ) {
         echo '</div>';
 
       }
+
 
       echo $this->field_after();
 

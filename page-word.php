@@ -18,12 +18,10 @@ get_header();
                                 while (have_posts()) : the_post(); ?>
                                     <li>
                                         <span class="shuoshuo_author_img"><img src="<?php echo get_avatar_profile_url(get_the_author_meta('ID')); ?>" class="avatar avatar-48" width="48" height="48"></span>
-                                        <a class="cbp_tmlabel" href="javascript:void(0)">
-                                        <p></p>
+                                        <div class="cbp_tmlabel">
                                         <p><?php the_content(); ?></p>
-                                        <p></p>
-                                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i> <?php the_time('Y年n月j日G:i'); ?></p>
-                                        </a>
+                                        <p class="shuoshuo_time"><i class="fa fa-clock-o"></i> <?php the_time('Y年n月j日 G:i'); ?></p>
+                                        </div>
                                     </li>
                                 <?php endwhile; ?>
                         </ul>
@@ -37,20 +35,18 @@ get_header();
         </main><!-- #main -->
     </div><!-- #primary -->
     <script type="text/javascript">
-    $(function () {
-        var oldClass = "";
-        var Obj = "";
-        $(".cbp_tmtimeline li").hover(function () {
-            Obj = $(this).children(".shuoshuo_author_img");
-            Obj = Obj.children("img");
-            oldClass = Obj.attr("class");
-            var newClass = oldClass + " zhuan";
-            Obj.attr("class", newClass);
-        }, function () {
-            Obj.attr("class", oldClass);
-        })
+    document.addEventListener('DOMContentLoaded', ()=>{
+        document.querySelectorAll('.cbp_tmtimeline li').forEach((p)=>{
+            var e = p.querySelector('.shuoshuo_author_img img')
+            p.addEventListener("mouseenter",()=>{
+                e.classList.add("zhuan");
+            })
+            p.addEventListener("mouseleave",()=>{
+                e.classList.remove("zhuan");
+            })
     })
+    }, false);
     </script>
 <?php
 get_footer();
- 
+?>

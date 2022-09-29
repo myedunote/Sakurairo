@@ -17,12 +17,14 @@ if ( ! class_exists( 'CSF_Field_media' ) ) {
     public function render() {
 
       $args = wp_parse_args( $this->field, array(
-        'url'          => true,
-        'preview'      => true,
-        'library'      => array(),
-        'button_title' => esc_html__( 'Upload', 'csf' ),
-        'remove_title' => esc_html__( 'Remove', 'csf' ),
-        'preview_size' => 'thumbnail',
+        'url'            => true,
+        'preview'        => true,
+        'preview_width'  => '',
+        'preview_height' => '',
+        'library'        => array(),
+        'button_title'   => esc_html__( 'Upload', 'sakurairo_csf' ),
+        'remove_title'   => esc_html__( 'Remove', 'sakurairo_csf' ),
+        'preview_size'   => 'thumbnail',
       ) );
 
       $default_values = array(
@@ -54,14 +56,22 @@ if ( ! class_exists( 'CSF_Field_media' ) ) {
       $preview_src = ( $args['preview_size'] !== 'thumbnail' ) ? $this->value['url'] : $this->value['thumbnail'];
       $hidden_url  = ( empty( $args['url'] ) ) ? ' hidden' : '';
       $hidden_auto = ( empty( $this->value['url'] ) ) ? ' hidden' : '';
-      $placeholder = ( empty( $this->field['placeholder'] ) ) ? ' placeholder="'.  esc_html__( 'Not selected', 'csf' ) .'"' : '';
+      $placeholder = ( empty( $this->field['placeholder'] ) ) ? ' placeholder="'.  esc_html__( 'Not selected', 'sakurairo_csf' ) .'"' : '';
 
       echo $this->field_before();
 
       if ( ! empty( $args['preview'] ) ) {
+
+        $preview_width  = ( ! empty( $args['preview_width'] ) ) ? 'max-width:'. esc_attr( $args['preview_width'] ) .'px;' : '';
+        $preview_height = ( ! empty( $args['preview_height'] ) ) ? 'max-height:'. esc_attr( $args['preview_height'] ) .'px;' : '';
+        $preview_style  = ( ! empty( $preview_width ) || ! empty( $preview_height ) ) ? ' style="'. esc_attr( $preview_width . $preview_height ) .'"': '';
+
         echo '<div class="csf--preview'. esc_attr( $hidden_auto ) .'">';
-        echo '<div class="csf-image-preview"><a href="#" class="csf--remove fas fa-times"></a><img src="'. esc_url( $preview_src ) .'" class="csf--src" /></div>';
+        echo '<div class="csf-image-preview"'. $preview_style .'>';
+        echo '<i class="csf--remove fas fa-times"></i><span><img src="'. esc_url( $preview_src ) .'" class="csf--src" /></span>';
         echo '</div>';
+        echo '</div>';
+
       }
 
       echo '<div class="csf--placeholder">';
